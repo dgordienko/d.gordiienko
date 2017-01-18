@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'bpicons';
+	font-weight: normal;
+	font-style: normal;
+	src: url('assets/fonts/bpicons/bpicons.eot');
+	src: url('assets/fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'), url('assets/fonts/bpicons/bpicons.woff') format('woff'), 
+	url('assets/fonts/bpicons/bpicons.ttf') format('truetype'),
+	url('assets/fonts/bpicons/bpicons.svg#bpicons') format('svg');
+}
+
 *,
 *:after,
 *:before {

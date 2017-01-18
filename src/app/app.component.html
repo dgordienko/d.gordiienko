@@ -1,52 +1,23 @@
 <nav class="pages-nav">
-		<div class="pages-nav__item"><a class="link link--page" href="#page-home">About</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">CV</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-software">Software</a></div>
-		<div class="pages-nav__item pages-nav__item--social">
-			<a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
-			<a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Github</span></a>
-		</div>
-	</nav>
-	<div class="pages-stack">
-		<!-- page -->
-		<div class="page" id="page-home">
-			<header class="bp-header cf">
-				<span class="bp-header__present">Dmitro Gordiienko 
-					<span class="bp-tooltip bp-icon bp-icon--about" data-content="Dmitro Gordiienko personal page"></span>	
-				</span>
-				<h1 class="bp-header__title">WELCOME!</h1>
-								<p class="info">
-					"Tale quale"
-				</p>
-				<p class="bp-header__desc">
-					Thank you so much for coming to my Web site.
-					 <br/>
-						I am a Software Engineer, Team Lead and former Chief Technical Officer upsmile.ua <br/>
-						I have <a href="#">seventeen years :)</a> in software development					
-				</p>
-			</header>
-		</div>
-		<!-- /page -->
-		<div class="page" id="page-docu">
-			<header class="bp-header cf">
-				<h1 class="bp-header__title">Documentation</h1>
-				<p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-				<p class="info">
-					"We cannot have peace among men whose hearts find delight in killing any living creature." &mdash; Rachel Carson
-				</p>
-			</header>
-
-		</div>
-		<div class="page" id="page-software">
-			<header class="bp-header cf">
-				<h1 class="bp-header__title">Software &amp; Downloads</h1>
-				<p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
-				<p class="info">
-					"I decided to pick the diet that I thought would maximize my chances of long-term survival." &mdash; Al Gore
-				</p>
-			</header>
-			<!--<img class="poster" src="images/3.jpg" alt="img03" />-->
-		</div>
-	</div>
-	<!-- /pages-stack -->
-	<button class="menu-button"><span>Menu</span></button>	
+<div class="pages-nav__item"><a class="link link--page" href="#page-home">About</a></div>
+<div class="pages-nav__item"><a class="link link--page" href="#page-docu">CV</a></div>
+<div class="pages-nav__item"><a class="link link--page" href="#page-software">Work</a></div>
+<div class="pages-nav__item pages-nav__item--social">
+  <a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+  <a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Github</span></a>
+</div>
+</nav>
+<div class="pages-stack" id="stack">
+  <!-- page -->
+  <div class="page" id="page-home">
+    <app-contacts-component></app-contacts-component>
+  </div>
+  <!-- /page -->
+  <div class="page" id="page-docu">
+    <app-cv-component></app-cv-component>
+  </div>
+  <div class="page" id="page-software">
+    <app-portfolio-component></app-portfolio-component>
+  </div>
+</div>
+<button class="menu-button"><span>Menu</span></button>
