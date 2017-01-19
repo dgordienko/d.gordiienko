@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewChecked} from '@angular/core';
-import {init} from 'dghp';
+import {MainContentServiceService} from '../main-content-service.service';
 
 @Component({
   selector: 'app-contacts-component',
@@ -8,9 +8,11 @@ import {init} from 'dghp';
 })
 export class ContactsComponentComponent implements OnInit ,AfterViewChecked{
 
-  constructor() { }
+  constructor(private service:MainContentServiceService) { }
 
   ngOnInit() {
+    console.log('component try get content');
+    this.service.getContent();
   }
 
   ngAfterViewChecked(){
