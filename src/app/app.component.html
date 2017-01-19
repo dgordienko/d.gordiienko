@@ -1,3 +1,21 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="pages-nav">
+  <div class="pages-nav__item"><a class="link link--page" href="#page-home">About</a></div>
+  <div class="pages-nav__item"><a class="link link--page" href="#page-docu">CV</a></div>
+  <div class="pages-nav__item"><a class="link link--page" href="#page-software">Work</a></div>
+  <div class="pages-nav__item pages-nav__item--social">
+    <a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+    <a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Github</span></a>
+  </div>
+</nav>
+<div class="pages-stack" #stack>
+  <div class="page" id="page-home">
+    <app-contacts-component></app-contacts-component>
+  </div>
+  <div class="page" id="page-docu">
+    <app-cv-component></app-cv-component>
+  </div>
+  <div class="page" id="page-software">
+    <app-portfolio-component></app-portfolio-component>
+  </div>
+</div>
+<button class="menu-button"><span>Menu</span></button>
