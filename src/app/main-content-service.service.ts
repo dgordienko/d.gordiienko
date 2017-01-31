@@ -11,11 +11,11 @@ export class MainContentServiceService {
 
   public getContent(): Observable<any> {
     console.log('get content');
-        return this.http.get('/app/content01.json').map((res:Response) => res.json());
+        return this.http.get('/app/content01.json').map((res: Response) => res.json());
 
   }
   private extractContent(res: Response) {
-    let body = res.json();
+    const body = res.json();
     return body.data || {};
   }
 

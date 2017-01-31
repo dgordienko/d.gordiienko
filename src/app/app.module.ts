@@ -8,6 +8,8 @@ import { PortfolioComponentComponent } from './portfolio-component/portfolio-com
 import { CvComponentComponent } from './cv-component/cv-component.component';
 import {MainContentServiceService} from './main-content-service.service';
 import { MaterialModule } from '@angular/material';
+import { MarkdownModule } from 'angular2-markdown';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { MaterialModule } from '@angular/material';
     MaterialModule.forRoot(),
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MarkdownModule.forRoot()
   ],
   providers: [MainContentServiceService],
   bootstrap: [AppComponent]

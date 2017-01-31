@@ -1,5 +1,4 @@
-# Gordienko Dmitry
-![alt](https://dgordienko.github.io/assets/img/01.jpg)
+# DMITRO GORDIIENKO
 
 22.07.1976
 - cell: +3(80)67-538-48-33
@@ -24,21 +23,21 @@ techniques as well as development of my own, getting a better understanding and 
 
 # Experience and Technology Summary
 
-|   |     |  |
+|  |     |   |
 |---:|---|---|
-|  1 | Database|Microsoft SQL Server 2000-2008; Oracle Database 11g|
-|  2 | BackEnd (.Net)  |WCF, ASP.Net Core, Owin, NansyFx, Mono   |
-|  3 | Backend (JavaScript)| nodejs, expressjs   |
-|  4 | FrontEnd (.Net)| WPF, ASP.Net Core|
-|  5 | FrontEnd (JavaScript)| jQuery, Electron, Angular 2|
-|  6 | Programming languages| C#, JavaScript, TypeScript, Borland Delphi, SQL (pl/sql and t-sql);|
-|  7 | Unit testes|NUnit, Moq, Karma, Chai;|
-|  8 | DI, ORM|Ninject, dotConnect for Oracle, Entity Framework|
-|  9 | IDE|Visual Studio 2015, Xamarin Studio, JetBrains Raider, Visual Studio Code|
-|  11 | Requirements| Atlassian Jira, TFS, Starteam|
-|  12 | BugTracking|Atlassian Jira, YoTrack, Bitbucket|
-|  13 | Continuous Integration|TeamCity, Travis CI, Heroku|
-|  14 | Version Control System|git, StarTeam|
+|   | Database|Microsoft SQL Server 2000-2008; Oracle Database 11g|
+|   | BackEnd (.Net)  |WCF, ASP.Net Core, Owin, NansyFx, Mono   |
+|   | Backend (JavaScript)| nodejs, expressjs   |
+|   | FrontEnd (.Net)| WPF, ASP.Net Core|
+|   | FrontEnd (JavaScript)| jQuery, Electron, Angular 2|
+|   | Programming languages| C#, JavaScript, TypeScript, Borland Delphi, SQL (pl/sql and t-sql);|
+|   | Unit testes|NUnit, Moq, Karma, Chai;|
+|   | DI, ORM|Ninject, dotConnect for Oracle, Entity Framework|
+|   | IDE|Visual Studio 2015, Xamarin Studio, JetBrains Raider, Visual Studio Code|
+|   | Requirements| Atlassian Jira, TFS, Starteam|
+|   | BugTracking|Atlassian Jira, YoTrack, Bitbucket|
+|   | Continuous Integration|TeamCity, Travis CI, Heroku|
+|   | Version Control System|git, StarTeam|
 
 # Education
 1995 – 2000     
