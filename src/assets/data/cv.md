@@ -45,8 +45,9 @@ techniques as well as development of my own, getting a better understanding and 
 - Vinnitsa State Technical University
     - Department of Automation and Computer Management Systems
     - Engineer of Laser and Optoelectronics System
-    
+
 1991 – 1995
  - Vinnitsa Technical College
     - Department of Radiotechnics
+    - Junior Engineer of Raidiotechnic
 
