@@ -11,7 +11,7 @@ export class MainContentServiceService {
 
   public getContent(): Observable<any> {
     console.log('get content');
-        return this.http.get('/app/content01.json').map((res: Response) => res.json());
+        return this.http.get('/assets/content01.json').map((res: Response) => res.json());
 
   }
   private extractContent(res: Response) {
