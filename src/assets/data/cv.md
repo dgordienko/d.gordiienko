@@ -1,5 +1,5 @@
 # Gordienko Dmitry
-![alt](/assets/img/01.jpg)
+![alt](https://raw.githubusercontent.com/dgordienko/d.gordiienko/master/src/assets/img/01.jpg)
 
 22.07.1976
 - cell: +3(80)67-538-48-33
