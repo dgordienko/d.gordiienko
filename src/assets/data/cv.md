@@ -95,6 +95,13 @@ Upsmile (2008 - december 2016)
    * RS-232
    * Assembler
 
+#### Courses & Certificates
+
+* [Oracle Database11g:Administration](https://www.dropbox.com/home?preview=certificate.pdf)
+* [Develop PL/SQL Program Units](http://www.borlas.com.ua/index.php/uchebnyj-tsentr/uchebnye-kursy)
+* [Oracle Database: Advanced PL/SQL](http://www.borlas.com.ua/index.php/uchebnyj-tsentr/uchebnye-kursy)
+* [Oracle Database 11g: SQL Tuning Workshop ](http://www.borlas.com.ua/index.php/uchebnyj-tsentr/uchebnye-kursy)
+
 # Education
 1995 – 2000     
 - Vinnitsa State Technical University
